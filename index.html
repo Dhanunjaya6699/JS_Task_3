@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task_3</title>
+</head>
+
+<body>
+    <img style="border: 2px solid blue;" src="./111.PNG" alt="" height="60%" width="100%">
+    <img style="border: 2px solid blue;" src="./222.PNG" alt="" height="60%" width="100%">
+
+    <script>
+        console.log("primitive data types :")
+        console.log(" ")
+        console.log("Number Data Type :-")
+        let num = 10;
+        console.log("num =", num)
+        console.log("The Data Type of variable num is =", typeof num);
+
+        console.log("String Data Type :-")
+        let str = "Dhanunjaya";
+        console.log("str =", str)
+        console.log("The Data Type of variable str is =", typeof str)
+
+        console.log("Boolean Data Type :-")
+        let c = 20;
+        let C = Boolean()
+        console.log(c > 10)
+        console.log(c > 30)
+        console.log("The Data Type of this variable is = ", typeof C)
+
+        let x = undefined;
+        console.log("x =", x);
+        console.log("The Data Type of variable x =", typeof x)
+
+        let n = null;
+        console.log("n =", n);
+        console.log("The Data Type of Variable n =", typeof n)
+        console.log("")
+
+        console.log("non-primitive datatypes : ")
+        console.log(" ")
+        console.log("Object :")
+        let obj = {
+            name: "Dhanu",
+            age: 23,
+            gender: "male",
+            education: {
+                BTech: "Mech",
+                Inter: "PUC",
+                10: "Z.P.H.School"
+            }
+        };
+        console.log("typeof obj is =", typeof obj)
+        console.log("obj = ", obj)
+        console.log("name = ", obj.name)
+        console.log("education = ", obj.edu)
+        console.log("10th = ", obj.education["10"], `(To access the key when it starts with the number, then we must use "" for that)`)
+        console.log(" ")
+
+        console.log("Arrays :")
+        let array = [1, 2, 3, 4, 5, 6]
+        let arr = Array()
+        console.log("typeof array is = ", typeof array)
+        console.log(`First element in this arraay is =  `, array[0])
+        console.log(`The last element in this array is  = `, array[5])
+
+    </script>
+</body>
+
+</html>
